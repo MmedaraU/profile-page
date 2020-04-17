@@ -167,9 +167,13 @@ h5 {
   text-transform: uppercase;
   text-align: center;
   line-height: 44px;
-  font-weight: bolder;
+  font-weight: 700;
   font-size: 48px;
+  font-family: "Lobster Two", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+    font-style: italic;
 }
+
 h1,
 h3,
 h4,
@@ -221,8 +225,11 @@ header p {
   font-weight: 400;
   font-size: 100px;
   line-height: 44px;
-  font-family: "Helvetica Neue", Helvetica, Arial,
+  font-family: "Lobster Two", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
 }
 
 
@@ -276,11 +283,11 @@ section {
  */
 .offset {
   text-align: center;
-  text-transform: uppercase;
   font-size: 20px;
+  
 }
  form {
-  height: 800px;
+  height: 900px;
   width: 85%;
   margin: 30px;
   background: #fff;
