@@ -178,7 +178,7 @@ p {
   margin-bottom: 22px;
 }
 p {
-    font-family: "Lobster Two" "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    font-family: "Lobster Two", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
     font-weight: 400;
 }
@@ -196,7 +196,7 @@ blockquote {
   color: #648880;
   font-weight: 400;
   padding: 30px;
-    font-family: "Pacifico" "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    font-family: "Pacifico", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
 /*
