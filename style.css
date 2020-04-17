@@ -242,7 +242,7 @@ section {
 }
 .div1 {
   color: #fff;
-  height: 600px;
+  height: 700px;
   width: 30%;
   margin-top: 100px;
   background: #fff;
@@ -278,7 +278,7 @@ section {
   text-align: center;
 }
  form {
-  height: 650px;
+  height: 700px;
   width: 85%;
   margin: 30px;
   background: #fff;
@@ -317,9 +317,9 @@ legend {
   text-align: center;
 }
 textarea {
-  width: 80%;
+  width: 60%;
   height: 63px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: block;
   border: 2px solid #e52b50;
   border-radius: 10px;
