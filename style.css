@@ -213,7 +213,7 @@ header {
 }
 header p {
   display: inline;
-  margin: 15px;
+  margin: 25px;
   position: relative;
   bottom: 60px;
   vertical-align: bottom;
@@ -278,7 +278,7 @@ section {
   text-align: center;
 }
  form {
-  height: 700px;
+  height: 800px;
   width: 85%;
   margin: 30px;
   background: #fff;
