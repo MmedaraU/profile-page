@@ -313,7 +313,9 @@ input {
   line-height: 20px;
   text-align: center;
   font-size: 20px;
-
+font-family: 'Lobster Two' "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+    font-size: 400;
   padding: 10px;
   
 }
@@ -336,6 +338,9 @@ textarea {
   line-height: 20px;
   font-size: 20px;
   padding: 15px;
+	font-family: 'Lobster Two' "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+    font-size: 400;
 }
 
 /*
