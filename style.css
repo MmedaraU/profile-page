@@ -150,7 +150,6 @@ body {
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-    max-width: 100%;
 }
 /*
   ========================================
@@ -222,14 +221,12 @@ header p {
   bottom: 60px;
   vertical-align: bottom;
   color: #fff;
-  font-weight: 400;
   font-size: 100px;
   line-height: 44px;
   font-family: "Lobster Two", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
     font-weight: 700;
     font-style: italic;
-}
 }
 
 
@@ -239,9 +236,8 @@ header p {
   =======================================
 */
 section {
-  background: #0095b6;
-  background-image: url("assets/images/bg.jpg");
-	
+  background: #fff;
+  background-image: url("assets/images/alex-blajan-vNGL14-V5TY-unsplash.jpg");
   background-size: cover;
   max-width: 100%;
   border: 1px solid #000;
