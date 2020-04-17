@@ -276,6 +276,8 @@ section {
  */
 .offset {
   text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
 }
  form {
   height: 800px;
