@@ -239,8 +239,9 @@ header p {
   =======================================
 */
 section {
-  background: #fff;
+  background: #21abcd;
   background-image: url("assets/images/alex-blajan-vNGL14-V5TY-unsplash.jpg");
+	
   background-size: cover;
   max-width: 100%;
   border: 1px solid #000;
