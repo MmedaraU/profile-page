@@ -240,7 +240,7 @@ header p {
 */
 section {
   background: #0095b6;
-  background-image: url("assets/images/alex-blajan-vNGL14-V5TY-unsplash.jpg");
+  background-image: url("assets/images/bg.jpg");
 	
   background-size: cover;
   max-width: 100%;
@@ -298,7 +298,7 @@ section {
   border: 2px solid #e52b50;
     font-family: 'Lobster Two' "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-    font-size: 400;
+    font-weight: 400;
     padding: 20px;
 }
 fieldset {
@@ -316,7 +316,7 @@ input {
   font-size: 20px;
 font-family: 'Lobster Two' "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-    font-size: 400;
+    font-weight: 400;
   padding: 10px;
   
 }
@@ -341,7 +341,7 @@ textarea {
   padding: 15px;
 	font-family: 'Lobster Two' "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-    font-size: 400;
+    font-weight: 400;
 }
 
 /*
