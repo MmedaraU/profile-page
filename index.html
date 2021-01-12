@@ -6,75 +6,84 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Profile Page</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+  <main>
+    <header>
+      <img src="assets/images/logo.png" alt="Logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <header>
-    <p>Mmedara</p>
-    <img class= "logo" src= "assets/images/bio2.png" alt="logo">
-    <p>Umana</p>
-  </header>
-   
-    <section>
-        <div class= "div1">
-    <h5>Name</h5>
-    <p>Mmedara Umana</p>
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="assets/images/bio2.png" alt="Mmedara">
+      <p>
+        My name is Mmedara Umana. I am 19 years old. I am currently a student in the university.
+        I love listening to music and reading. I love to learn, pick up new skills, just study the world and people. I'm
+        a quiet person.
+      </p>
+      <p>
+        Some time in 2019, I came across web development and decided to really pursue learning about it. It was hard to
+        really get started because I had to couple everything with school work and that was already tedious. So far,
+        I've
+        learned a bit about HTML, CSS, and JavaScript, I'm still learning though but as I practice, it doesn't seem as
+        challenging as it was before.
+      </p>
+    </section>
 
-    <h5>Date of birth</h5>
-    <p>7th August</p>
+    <section id="projects">
+      <h2>Projects</h2>
+      <iframe src="dauntfast.epizy.com"></iframe>
+      <p>Dauntfast is a website for a food delivery service. It was created with a team as part of an internship
+        program.</p>
+      <div>
 
-    <h5>State of Origin</h5>
-    <p>Akwa Ibom State</p>
+      </div>
+    </section>
 
-    <h5>Occupation</h5>
-    <p>Student</p>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <fieldset>
+          <p>If You Want To Make Enquiries or Just Send A Message, Please Reach Out.</p>
+          <label>
+            <p>Name</p>
+            <input type="text" name="username" placeholder="Full Name" required>
+          </label>
 
-    <h5>Email</h5>
-    <p>umana.mmedara <br> @gmail.com</p>
-        </div>       
-        <div class= "div2">
+          <label>
+            <p>Email</p>
+            <input type="email" name="email" placeholder="Email address" required>
+          </label>
 
-    <h2>About Me</h2>
-    <blockquote>
-    <p>
-      &quot; My name is Mmedara Umana. I am currently studying Chemical Engineering
-      at the University of Uyo.
-    </p>
-    <p>
-      I love listening to music, reading, singing, writing and playing games.
-      More recently though, I have taken an interest in web design, learning HTML, CSS and JavaScript.
-      This is just an attempt. &quot;
-    </p>
-    </blockquote>
+          <label>
+            <p>Message</p>
+            <textarea name="message" placeholder="Message"></textarea>
+            <input class="btn" type="submit" name="submit" value="Send A Message">
+          </label>
 
-        </div>
-    
-    <form>
-      <fieldset>
-      <legend><h4>Contact Me</h4></legend>
-      <p class= "offset">If You Want To Make Enquiries or Just Send A Message, Please Reach Out.</p>
-      <label>
-      <p>Name</p>
-      <input type= "text" name= "username" placeholder= "Full Name" required>
-    </label>
-      
-    <label>
-      <p>Email</p>
-      <input type= "email" name= "email" placeholder= "Email address" required>
-    </label>
+        </fieldset>
 
-    <label>
-      <p>Message</p>
-      <textarea name= "message" placeholder= "Message"></textarea>
-     <input class= "btn btn-default" type= "submit" name= "submit" value= "Send A Message">
-
-    </fieldset>
-     
-    </form>
-      </section>
-  
+      </form>
+      <div>
+        <span><a href="https://twitter.com/MmedaraUmana">Twitter: @MmedaraUmana</a></span>
+        <span><a href="mailto:umana.mmedara@gmail.com">Email: umana.mmedara@gmail.com</a></span>
+        <span><a href="https://github.com/MmedaraU">github: MmedaraU</a></span>
+      </div>
+    </section>
+    <footer>
+      <span>January 2021</span>
+    </footer>
+  </main>
 </body>
 
 </html>
