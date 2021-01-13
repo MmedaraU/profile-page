@@ -9,7 +9,7 @@
   font-size: 16px;
 }
 main {
-  font-family: 'Lobster Two', "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Pacifico', "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #ccb5a3;
   width: 100vw;
   max-width: 100%;
@@ -30,6 +30,11 @@ section:nth-of-type(odd) {
 span {
   display: block;
 }
+svg {
+  height: 30px;
+  width: 30px;
+  display: inline;
+}
 /*
   ========================================
   Typography
@@ -39,9 +44,15 @@ h2 {
   color: #62002d;
   text-transform: uppercase;
   text-align: center;
+  font-family: "Lobster Two", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+    font-style: italic;
 }
 section:nth-of-type(odd) h2{
   color: #ccb5a3;
+  font-family: "Lobster Two", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+    font-style: italic;
 }
 a {
   color: inherit;
@@ -131,11 +142,11 @@ textarea {
 }
 
 footer {
+  background: #888;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 12.5rem;
-  color: #666;
 }
 
 /*========================================
