@@ -31,8 +31,8 @@ span {
   display: block;
 }
 svg {
-  height: 30px;
-  width: 30px;
+  height: 1.875rem;
+  width: 1.875rem;
   display: inline;
 }
 /*
@@ -60,9 +60,15 @@ a {
   cursor: pointer;
 }
 a:hover{
-  text-decoration: underline;;
+  text-decoration: underline;
+  font-style: italic;
 }
-
+/*
+  ========================================
+  Images
+  ========================================
+*/
+  
 /*
   ========================================
   Header
@@ -98,7 +104,9 @@ header li {
   Projects
   ========================================
 */
-
+  img {
+    height: 12.5rem;
+  }
 /*
   ========================================
   Contact
